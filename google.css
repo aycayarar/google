@@ -1,0 +1,41 @@
+
+
+
+/* Arama kutusunu ve butonları içeren div */
+.search-container {
+    width: 400px; /* Genişlik belirle */
+    margin: 20px auto; /* Üstten boşluk bırak ve ortala */
+    text-align: center; /* İçindeki öğeleri ortala */
+}
+
+.search-box {
+    width: 100%; /* Kendi genişliği kadar olmasını sağlar */
+    max-width: 300px; /* Maksimum genişliği belirle */
+    display: block; /* Blok elementi yap */
+    margin: 0 auto; /* Kendi içinde de ortalanmasını sağlar */
+}
+
+/* Butonları içeren div */
+.buttons {
+    margin-top: 10px; /* Butonları biraz aşağı kaydır */
+}
+
+/* Butonlar */
+.buttons input {
+    padding: 5px 10px;
+}
+
+
+footer {
+    text-align: center; /* Linkleri yatayda ortalar */
+    margin-top: 20px; /* Üstten boşluk bırakır */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* İçeriği dikey hizalamak için */
+    justify-content: center; /* Dikeyde ortalamak için */
+    align-items: center; /* Yatayda ortalamak için */
+    height: 100vh; /* Ekran yüksekliği kadar yer kaplasın */
+    margin: 0; /* Varsayılan boşlukları kaldır */
+}
